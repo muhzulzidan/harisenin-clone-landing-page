@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<title>harisenin-clone-landing-page</title>
+
+</head>
+<body class="bg-zinc-900 text-white">
+    <h1 class="hidden">harisenin</h1>
+    <header class="fixed z-10 top-0 w-full px-12">
+        <nav class="fixed md:hidden top-0 inset-x-0 bg-white justify-center items-center shadow-lg p-4">
+            <div class="flex items-center justify-center">
+                <a href="/">
+                    <img class="w-4/12" src="https://cdn.harisenin.com/public/assets/logos/logo_harisenin.svg"
+                        alt="logo_harisenin">
+                </a>
+                <div class="md:hidden absolute right-2">
+                    <input type="checkbox" id="toggleNav" class="hidden" />
+                    <label for="toggleNav" class="flex items-center cursor-pointer">
+                        <svg class="w-6 h-6" class="fill-black stroke-black" xmlns="http://www.w3.org/2000/svg"
+                            fill="black" viewBox="0 0 24 24" stroke="black">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </label>
+                </div>
+            </div>
+            <nav id="mobileNav" class="hidden md:hidden">
+                <ul class="flex flex-col mt-4 space-y-2">
+                    <li><a href="#">Program</a></li>
+                    <li><a href="#">Corporate</a></li>
+                    <li><a href="#">About</a></li>
+                    <div class="flex space-x-4">
+                        <button>Masuk</button>
+                        <button>Daftar</button>
+                    </div>
+                </ul>
+            </nav>
+        </nav>
+
+        <!-- Header for desktop -->
+        <nav class="hidden md:flex items-center justify-between p-4">
+            <a href="/">
+                <img src="./src/img/logo_harisenin-white-new.webp" alt="logo_harisenin">
+            </a>
+
+            <ul class="flex gap-6 items-center">
+                <li><a href="#" class="hover:text-emerald-500">Program</a></li>
+                <li><a href="#" class="hover:text-emerald-500">Corporate</a></li>
+                <li><a href="#" class="hover:text-emerald-500">About</a></li>
+                <div class="flex space-x-2">
+                    <button
+                        class="bg-white px-4 py-1  border-2 border-emerald-500 border-solid rounded text-emerald-600 hover:bg-emerald-500 hover:text-white">Daftar</button>
+                    <button
+                        class="bg-emerald-600  px-4 py-1 text-white rounded hover:bg-white hover:text-emerald-500">Masuk</button>
+
+                </div>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="relative bg-[rgba(0,0,0,0.85)] py-24  ">
+
+        <div class=" container mx-auto flex flex-col text-center max-w-md">
+            <div class="flex flex-col gap-2">
+                <h4 class="text-xs">Updated: 31 Maret 2023</h4>
+                <h2 class="text-4xl font-bold">3854 Alumni*</h2>
+                <h3 class="text-2xl font-semibold">Meraih Karier Impiannya <br> <span
+                        class="text-emerald-600">Walau</span> <span class="text-blue-800">Budget Pas - Pasan.</span>
+                </h3>
+                <p class="text-xs">*Sejak Maret 2021, harisenin.com telah membantu 3854 muda-mudi Indonesia meraih
+                    impiannya terlepas dari latar belakang ekonomi dan sosial mereka.</p>
+            </div>
+            <a  href="https://api.whatsapp.com/send?phone=6281312117711" class="bg-emerald-600 text-white px-4 py-2 text-sm justify-center rounded flex self-center mt-4 w-2/3 hover:bg-white hover:text-emerald-600">Klik Untuk Masa Depanmu. Gratis!</a>
+            <div class="flex mt-[30px] justify-center">
+                <div class="flex">
+                    <div class="rounded-full relative -right-4 z-10  border-2 border-white h-10">
+                        <img src="https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Ftestimony%2Feb0619838649f757aa99089c21642f70.webp&w=96&q=75"
+                            class="w-full h-full rounded-full" alt="">
+                    </div>
+                    <div class="rounded-full relative -right-3 border-2 border-white h-10">
+                        <img src="https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Ftestimony%2F73ed1c5775b34c7b2e78f19623f1ea3b.webp&w=96&q=75"
+                            class="w-full h-full rounded-full" alt="">
+                    </div>
+                    <div class="rounded-full border-2 border-white h-10">
+                        <img src="https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Ftestimony%2Ff8fa676d32ef3d1674d641cba6e6a592.webp&w=96&q=75"
+                            class="w-full h-full rounded-full" alt="">
+                    </div>
+                </div>
+                <div class="ml-2 sm-only:text-sm">
+                    <div class="flex text-yellow gap-1.5 mb-1">
+                        <div class="text-yellow-400 flex"><svg stroke="currentColor" fill="currentColor"
+                                stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                </path>
+                            </svg><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512"
+                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                </path>
+                            </svg><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512"
+                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                </path>
+                            </svg><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512"
+                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                </path>
+                            </svg><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 536 512"
+                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M508.55 171.51L362.18 150.2 296.77 17.81C290.89 5.98 279.42 0 267.95 0c-11.4 0-22.79 5.9-28.69 17.81l-65.43 132.38-146.38 21.29c-26.25 3.8-36.77 36.09-17.74 54.59l105.89 103-25.06 145.48C86.98 495.33 103.57 512 122.15 512c4.93 0 10-1.17 14.87-3.75l130.95-68.68 130.94 68.7c4.86 2.55 9.92 3.71 14.83 3.71 18.6 0 35.22-16.61 31.66-37.4l-25.03-145.49 105.91-102.98c19.04-18.5 8.52-50.8-17.73-54.6zm-121.74 123.2l-18.12 17.62 4.28 24.88 19.52 113.45-102.13-53.59-22.38-11.74.03-317.19 51.03 103.29 11.18 22.63 25.01 3.64 114.23 16.63-82.65 80.38z">
+                                </path>
+                            </svg></div>
+                    </div>(<!-- -->4.9<!-- -->/5 dari <!-- -->3854<!-- --> Alumni)
+                </div>
+            </div>
+        </div>
+        <div class="bg-zinc-800 absolute top-0 "></div>
+        <img src="./src/img/homepage_banner_3.webp" alt="testimony" class="h-full w-full top-0 -z-10 absolute">
+    </main>
+
+    <div
+        class="fixed right-2  bg-emerald-500 text-white rounded-full p-2 font-size-16 text-center cursor-pointer w-12 h-12 ">
+        <svg focusable="false" viewBox="0 0 24 24" width="inherit" height="inherit" class="fill-white">
+            <path
+                d="M16.75 13.96c.25.13.41.2.46.3.06.11.04.61-.21 1.18-.2.56-1.24 1.1-1.7 1.12-.46.02-.47.36-2.96-.73-2.49-1.09-3.99-3.75-4.11-3.92-.12-.17-.96-1.38-.92-2.61.05-1.22.69-1.8.95-2.04.24-.26.51-.29.68-.26h.47c.15 0 .36-.06.55.45l.69 1.87c.06.13.1.28.01.44l-.27.41-.39.42c-.12.12-.26.25-.12.5.12.26.62 1.09 1.32 1.78.91.88 1.71 1.17 1.95 1.3.24.14.39.12.54-.04l.81-.94c.19-.25.35-.19.58-.11l1.67.88M12 2a10 10 0 0 1 10 10 10 10 0 0 1-10 10c-1.97 0-3.8-.57-5.35-1.55L2 22l1.55-4.65A9.969 9.969 0 0 1 2 12 10 10 0 0 1 12 2m0 2a8 8 0 0 0-8 8c0 1.72.54 3.31 1.46 4.61L4.5 19.5l2.89-.96A7.95 7.95 0 0 0 12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8z">
+            </path>
+        </svg>
+        <span
+            class="bg-red-500 text-white text-sm h-4 w-3  rounded-full text-[5px] text-center absolute -top-0 right-1">1</span>
+    </div>
+
+</body>
+</html>
