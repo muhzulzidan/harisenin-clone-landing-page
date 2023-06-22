@@ -9,9 +9,9 @@
 <title>harisenin-clone-landing-page</title>
 
 </head>
-<body class="bg-zinc-900 text-white">
+<body class="bg-white text-white">
     <h1 class="hidden">harisenin</h1>
-    <header class="fixed z-10 top-0 w-full px-12">
+    <header class="fixed z-20 top-0 w-full px-12">
         <nav class="fixed md:hidden top-0 inset-x-0 bg-white justify-center items-center shadow-lg p-4">
             <div class="flex items-center justify-center">
                 <a href="/">
@@ -30,13 +30,13 @@
                 </div>
             </div>
             <nav id="mobileNav" class="hidden md:hidden">
-                <ul class="flex flex-col mt-4 space-y-2">
+                <ul class="flex flex-col mt-8 space-y-2 text-black">
                     <li><a href="#">Program</a></li>
                     <li><a href="#">Corporate</a></li>
                     <li><a href="#">About</a></li>
-                    <div class="flex space-x-4">
-                        <button>Masuk</button>
-                        <button>Daftar</button>
+                    <div class="flex mt-8  gap-2">
+                        <button class="bg-white px-4 py-1 w-full border-2 border-emerald-500 border-solid rounded text-emerald-600 hover:bg-emerald-500 hover:text-white">Daftar</button>
+                        <button class="bg-emerald-600  w-full px-4 py-1 text-white rounded hover:bg-white hover:text-emerald-500">Masuk</button>
                     </div>
                 </ul>
             </nav>
@@ -64,69 +64,109 @@
 
     </header>
 
-    <main class="relative bg-[rgba(0,0,0,0.85)] py-24  ">
-
-        <div class=" container mx-auto flex flex-col text-center max-w-md">
-            <div class="flex flex-col gap-2">
-                <h4 class="text-xs">Updated: 31 Maret 2023</h4>
-                <h2 class="text-4xl font-bold">3854 Alumni*</h2>
-                <h3 class="text-2xl font-semibold">Meraih Karier Impiannya <br> <span
-                        class="text-emerald-600">Walau</span> <span class="text-blue-800">Budget Pas - Pasan.</span>
-                </h3>
-                <p class="text-xs">*Sejak Maret 2021, harisenin.com telah membantu 3854 muda-mudi Indonesia meraih
-                    impiannya terlepas dari latar belakang ekonomi dan sosial mereka.</p>
-            </div>
-            <a  href="https://api.whatsapp.com/send?phone=6281312117711" class="bg-emerald-600 text-white px-4 py-2 text-sm justify-center rounded flex self-center mt-4 w-2/3 hover:bg-white hover:text-emerald-600">Klik Untuk Masa Depanmu. Gratis!</a>
-            <div class="flex mt-[30px] justify-center">
-                <div class="flex">
-                    <div class="rounded-full relative -right-4 z-10  border-2 border-white h-10">
-                        <img src="https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Ftestimony%2Feb0619838649f757aa99089c21642f70.webp&w=96&q=75"
-                            class="w-full h-full rounded-full" alt="">
+    <main class="">
+        <div class="relative bg-[rgba(0,0,0,0.85)] py-24 ">
+            <div class="w-11/12 mx-auto container flex flex-col text-center lg:max-w-md">
+                <div class="flex flex-col gap-2">
+                    <h4 class="text-xs">Updated: 31 Maret 2023</h4>
+                    <h2 class="text-4xl font-bold">3854 Alumni*</h2>
+                    <h3 class="text-xl md:text-2xl  font-semibold">Meraih Karier Impiannya <br> <span
+                            class="text-emerald-600">Walau</span> <span id="change_text" class="text-blue-800">Budget
+                            Pas - Pasan.</span>
+                    </h3>
+                    <p class="text-xs px-4 md:p-0">*Sejak Maret 2021, harisenin.com telah membantu 3854 muda-mudi Indonesia meraih
+                        impiannya terlepas dari latar belakang ekonomi dan sosial mereka.</p>
+                </div>
+                <a href="https://api.whatsapp.com/send?phone=6281312117711"
+                    class="bg-emerald-600 text-white px-4 py-2 text-sm justify-center rounded flex self-center mt-4 w-2/3 hover:bg-white hover:text-emerald-600">Klik
+                    Untuk Masa Depanmu. Gratis!</a>
+                <div class="flex mt-[30px] justify-center">
+                    <div class="flex">
+                        <div class="rounded-full relative -right-4 z-10  h-7  border-2 border-white md:w-auto md:h-10">
+                            <img src="https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Ftestimony%2Feb0619838649f757aa99089c21642f70.webp&w=96&q=75"
+                                class="w-full h-full rounded-full" alt="">
+                        </div>
+                        <div class="rounded-full relative -right-3 border-2 border-white h-7 md:h-10">
+                            <img src="https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Ftestimony%2F73ed1c5775b34c7b2e78f19623f1ea3b.webp&w=96&q=75"
+                                class="w-full h-full rounded-full" alt="">
+                        </div>
+                        <div class="rounded-full border-2 border-white h-7 md:h-10">
+                            <img src="https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Ftestimony%2Ff8fa676d32ef3d1674d641cba6e6a592.webp&w=96&q=75"
+                                class="w-full h-full rounded-full" alt="">
+                        </div>
                     </div>
-                    <div class="rounded-full relative -right-3 border-2 border-white h-10">
-                        <img src="https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Ftestimony%2F73ed1c5775b34c7b2e78f19623f1ea3b.webp&w=96&q=75"
-                            class="w-full h-full rounded-full" alt="">
-                    </div>
-                    <div class="rounded-full border-2 border-white h-10">
-                        <img src="https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Ftestimony%2Ff8fa676d32ef3d1674d641cba6e6a592.webp&w=96&q=75"
-                            class="w-full h-full rounded-full" alt="">
+                    <div class="ml-2 text-xs md:text-sm">
+                        <div class="flex text-yellow gap-1.5 mb-1">
+                            <div class="text-yellow-400 flex"><svg stroke="currentColor" fill="currentColor"
+                                    stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                    </path>
+                                </svg><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                    viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                    </path>
+                                </svg><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                    viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                    </path>
+                                </svg><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                    viewBox="0 0 576 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
+                                    </path>
+                                </svg><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                    viewBox="0 0 536 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M508.55 171.51L362.18 150.2 296.77 17.81C290.89 5.98 279.42 0 267.95 0c-11.4 0-22.79 5.9-28.69 17.81l-65.43 132.38-146.38 21.29c-26.25 3.8-36.77 36.09-17.74 54.59l105.89 103-25.06 145.48C86.98 495.33 103.57 512 122.15 512c4.93 0 10-1.17 14.87-3.75l130.95-68.68 130.94 68.7c4.86 2.55 9.92 3.71 14.83 3.71 18.6 0 35.22-16.61 31.66-37.4l-25.03-145.49 105.91-102.98c19.04-18.5 8.52-50.8-17.73-54.6zm-121.74 123.2l-18.12 17.62 4.28 24.88 19.52 113.45-102.13-53.59-22.38-11.74.03-317.19 51.03 103.29 11.18 22.63 25.01 3.64 114.23 16.63-82.65 80.38z">
+                                    </path>
+                                </svg></div>
+                        </div>(<!-- -->4.9<!-- -->/5 dari <!-- -->3854<!-- --> Alumni)
                     </div>
                 </div>
-                <div class="ml-2 sm-only:text-sm">
-                    <div class="flex text-yellow gap-1.5 mb-1">
-                        <div class="text-yellow-400 flex"><svg stroke="currentColor" fill="currentColor"
-                                stroke-width="0" viewBox="0 0 576 512" height="1em" width="1em"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                </path>
-                            </svg><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512"
-                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                </path>
-                            </svg><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512"
-                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                </path>
-                            </svg><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 576 512"
-                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z">
-                                </path>
-                            </svg><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 536 512"
-                                height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M508.55 171.51L362.18 150.2 296.77 17.81C290.89 5.98 279.42 0 267.95 0c-11.4 0-22.79 5.9-28.69 17.81l-65.43 132.38-146.38 21.29c-26.25 3.8-36.77 36.09-17.74 54.59l105.89 103-25.06 145.48C86.98 495.33 103.57 512 122.15 512c4.93 0 10-1.17 14.87-3.75l130.95-68.68 130.94 68.7c4.86 2.55 9.92 3.71 14.83 3.71 18.6 0 35.22-16.61 31.66-37.4l-25.03-145.49 105.91-102.98c19.04-18.5 8.52-50.8-17.73-54.6zm-121.74 123.2l-18.12 17.62 4.28 24.88 19.52 113.45-102.13-53.59-22.38-11.74.03-317.19 51.03 103.29 11.18 22.63 25.01 3.64 114.23 16.63-82.65 80.38z">
-                                </path>
-                            </svg></div>
-                    </div>(<!-- -->4.9<!-- -->/5 dari <!-- -->3854<!-- --> Alumni)
+            </div>
+            <div class="bg-zinc-800 absolute top-0 "></div>
+            <img src="./src/img/homepage_banner_3.webp" alt="testimony" class="h-full w-full top-0 -z-10 absolute">
+        </div>
+        <div class="container lg:w-11/12 mx-auto py-8">
+            <h3 class="text-2xl lg:text-3xl font-bold mb-4 text-black text-center">Alasan  <strong class=" text-blue-600"> 3854 </strong> Alumni Memilih Harisenin.com</h3>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4 bg-white p-4">
+                <div class="flex flex-col items-start rounded-md shadow-[0_10px_20px_0_#9aaacf33] p-4 ">
+                    <img src="https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Fpublic%2Fassets%2Ficon%2Ficon_benefit-1.png&w=256&q=75"
+                        alt="Icon 1" class="w-32 mb-4">
+                    <p class="text-xs text-black">Skill. Mental. Karakter. Strategi. Harisenin.com membentuk individu
+                        yang siap
+                        tempur di dunia kerja.</p>
+                </div>
+
+                <div class="flex flex-col items-start rounded-md shadow-[0_10px_20px_0_#9aaacf33] p-4">
+                    <img src="https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Fpublic%2Fassets%2Ficon%2Ficon_benefit-2.png&w=256&q=75"
+                        alt="Icon 2" class=" w-32 mb-4">
+                    <p class="text-xs text-black">Satu-satunya di Indonesia. Uangmu kembali 100%, plus 10% kalau kamu
+                        nganggur
+                        setahun setelah lulus.</p>
+                </div>
+
+                <div class="flex flex-col items-start rounded-md shadow-[0_10px_20px_0_#9aaacf33] p-4">
+                    <img src="https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Fpublic%2Fassets%2Ficon%2Ficon_benefit-3.png&w=256&q=75"
+                        alt="Icon 3" class=" w-24  mb-2">
+                    <p class="text-xs text-black">Alumni sudah bekerja. Tanpa pilah-pilih, dengan kurikulum
+                        harisenin.com kamu
+                        bisa #JadiYangKamuMau.</p>
+                </div>
+
+                <div class="flex flex-col items-start rounded-md shadow-[0_10px_20px_0_#9aaacf33] p-4">
+                    <img src="https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Fpublic%2Fassets%2Ficon%2Ficon_benefit-4.png&w=256&q=75"
+                        alt="Icon 4" class=" w-32 mb-4">
+                    <p class="text-xs text-black">Yes. Alumni kami sadar bahwa value yang didapat vs harga yang mereka
+                        bayar
+                        melebihi ekspektasi mereka.</p>
                 </div>
             </div>
         </div>
-        <div class="bg-zinc-800 absolute top-0 "></div>
-        <img src="./src/img/homepage_banner_3.webp" alt="testimony" class="h-full w-full top-0 -z-10 absolute">
     </main>
 
     <div
@@ -139,6 +179,6 @@
         <span
             class="bg-red-500 text-white text-sm h-4 w-3  rounded-full text-[5px] text-center absolute -top-0 right-1">1</span>
     </div>
-
+    <script src="./src/index.js"></script>
 </body>
 </html>
