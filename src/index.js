@@ -1,3 +1,4 @@
+
 textItems = [
     "Gak Punya Privilege.",
     "Baru Lulus Kuliah.",
@@ -28,3 +29,23 @@ document.addEventListener('DOMContentLoaded', function () {
         mobileNav.classList.toggle('hidden');
     });
 });
+
+
+const headerElement = document.getElementById('header');
+const logoImageElement = document.getElementById('logoImage');
+
+function handleScroll() {
+    const scrollPosition = window.scrollY;
+    if (scrollPosition > 0) {
+        headerElement.classList.add('bg-white', "text-black");
+        logoImageElement.src = 'https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Fpublic%2Fassets%2Flogos%2Flogo_harisenin.svg&w=128&q=75';
+
+    } else {
+        headerElement.classList.remove('bg-white', "text-black");
+        logoImageElement.src = 'https://www.harisenin.com/_next/image?url=https%3A%2F%2Fcdn.harisenin.com%2Fpublic%2Fassets%2Flogos%2Flogo_harisenin-white-new.png&w=128&q=75';
+
+    }
+}
+
+// Listen for the scroll event and call the handleScroll function
+window.addEventListener('scroll', handleScroll);
